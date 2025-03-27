@@ -20,3 +20,24 @@ git branch b3
 git branch --list
 git branch -d b3
 git pull url
+p4]
+public class AddTwoNumbers {
+    public static void main(String[] args) {
+        int num1 = 10;
+        int num2 = 20;
+        int sum = num1 + num2;
+        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+    }
+}
+class HelloWorld
+{
+    public static void main(String[] args)
+    {
+        System.out.println(“Hello, World”);
+    }
+}
+FROM openjdk
+WORKDIR /app
+COPY ./app
+RUN javac sample.java\
+CMD ["java", "sample" ]
