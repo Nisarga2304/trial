@@ -1,0 +1,22 @@
+git init
+git remote add origin url
+git config --global user.name "Nisarga2304"
+git add .
+git commit -m "version1"
+git push origin master
+git status
+git log
+git clone url
+2] 
+git checkout -b b1
+git checkout -b b2
+vi cat.txt
+ls
+git merge b1
+git switch b1
+ls
+git diff
+git branch b3
+git branch --list
+git branch -d b3
+git pull url
